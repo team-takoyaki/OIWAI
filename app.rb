@@ -7,6 +7,7 @@ get '/' do
 end
 
 get '/list' do
+  content_type 'application/json'
   [
     {
       id: 1,
