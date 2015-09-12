@@ -8,7 +8,7 @@ end
 
 get '/list' do
   content_type 'application/json'
-  [
+  oiwais = [
     {
       id: 1,
       image_url: 'http://www.shogi.or.jp/player/ph_kishi/segawa.jpg',
@@ -19,7 +19,8 @@ get '/list' do
       image_url: 'http://aya-web.com/img/ayakasegawa.jpg',
       title: 'ほげほげ'
     },
-  ].to_json
+  ]
+  oiwais.to_json
 end
 
 post '/omedeto/:id' do
