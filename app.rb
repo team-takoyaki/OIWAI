@@ -21,3 +21,8 @@ get '/list' do
     },
   ].to_json
 end
+
+post '/omedeto/:id' do
+  content_type 'application/json'
+  {count: 100 + params[:id].to_i}.to_json
+end
