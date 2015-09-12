@@ -1,4 +1,25 @@
-.oiwaibutsu img {
-    width: 100px;
-    height: 100px;
+body {
+    text-align: center;
 }
+
+.logo {
+    margin-bottom: 50px;
+}
+
+.oiwai_view {
+    margin-bottom: 200px;
+}
+
+.oiwai_view .title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.oiwai_view .image {
+    width: 500px;
+}
+
+.oiwai_view .omedeto_button {
+    width: 150px;
+}
+
